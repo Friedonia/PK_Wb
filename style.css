@@ -1,0 +1,107 @@
+/*made by Frieder Schmidt last change 9.6.2023*/
+
+html, body {
+    margin: 0; 
+    height: 100%;
+
+    background-color: black;
+}
+
+
+header {
+    height: 80;
+    background: #08004d;
+}
+header img {
+    padding: 10;
+    width: 60;
+    height: 60;
+}
+
+#graph {
+    width: 500;
+    height: 400; 
+}
+
+/*Platform und alles Links unten*/
+.links-Unten{
+    margin-top: 0;
+}
+.platform{
+    margin-left: 0px;
+    margin-top: -236px;
+    margin-right: 445;
+    margin-left: 250;
+
+} 
+#deg{
+    color: white;
+    margin-left: 210px;
+    margin-right: 585;
+    margin-top: -28;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4;
+    padding-right: 35;
+}
+#platform_img{
+    margin-left: 25;
+    margin-top: -220;
+    margin-bottom: -210px;
+}
+#bar{
+    height: 21;
+    width: 255;
+    margin-left: -254px;
+    margin-bottom: 230;
+
+}
+#hintergrund{
+    padding-top: -300;
+}
+
+/*Blende*/
+#gitter {
+    background-color: rgb(208, 79, 36);
+    width: 250;
+    height: 200;
+}
+#regler {
+    margin-left: 1;
+    width: 125px;
+    margin-top: 15;
+}
+
+/*Mitte (Tabelle)*/
+.mitte {
+    margin-left: 500;
+    margin-top: -669;
+    margin-right: 27.4%;
+}
+#table {
+    height: 650;
+    width: 300;
+}
+
+/*Kammera und Start Knopf*/
+.rechts {
+
+    margin-left: 800;
+    margin-top: -650;
+}
+#cam {
+    width: 300;
+    height: 300;
+    background-color: rgb(0, 255, 255);
+}
+.rechts-Unten {
+    padding-top: 75;
+    padding-left: 25;
+}
+button {
+    border: 0;
+    background-color: transparent;
+}
+button img {
+    width: 250;
+    height: 175;
+}

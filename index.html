@@ -1,0 +1,73 @@
+
+<html lang="de">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="script" href="script.js">
+    <link rel="script" href="platformScript.js">
+    <link rel="script" href="blende.js">
+    <title>PK RCL</title>
+
+
+</head>
+<body>
+
+    <header>
+        <img src="img/logo.png" alt="">
+
+    </header>
+
+    <div class="links">
+
+        <div class="chart-container" style="position: relative; height:400; width:500">
+
+            <canvas id="graph" width="500%" height="400%"></canvas>
+            <script src="script.js"></script>
+        </div>
+
+
+        
+            
+            <div class="links-Unten">
+                </div class="blende">
+
+                    <canvas id="gitter" width="250%" height="200%"></canvas>
+                    <script src="blende.js"></script>
+                    <div class="regeler">
+
+                        <input id="regler"type="range" min="0" max="7" step="1.0" value="0">
+                    </div>
+                </div>
+    
+                <div class="platform">
+                    <img id="hintergrund" src="img/Background.png" height="250" width="250">
+                    <img id="bar" src="img/schüssel.png" height="30" width="250">
+                    <img id="platform_img" width="200" height="200" src="/img/platform.png" />
+                    <p id="deg">#47</p>
+                    <script src="platformScript.js"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="mitte">
+        <iframe id="table" src="table.html" frameborder="0"></iframe>
+    </div>
+
+    <div class="rechts">
+
+        <canvas id="cam"></canvas>
+        
+        <div class="rechts-Unten">
+            <button id="start"> <img src="img/Red-Start-Button-PNG-Free-Download.png" alt=""></button>
+        </div>
+    </div>
+
+    
+</body>
+</html>
