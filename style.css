@@ -1,21 +1,9 @@
-/*made by Frieder Schmidt last change 9.6.2023*/
+/*made by Frieder Schmidt last change 30.7.2023*/
 
 html, body {
     margin: 0; 
     height: 100%;
-
     background-color: black;
-}
-
-
-header {
-    height: 80;
-    background: #08004d;
-}
-header img {
-    padding: 10;
-    width: 60;
-    height: 60;
 }
 
 #graph {

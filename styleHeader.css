@@ -1,0 +1,54 @@
+/*made by Frieder Schmidt last change 30.7.2023*/
+
+html, body {
+    margin: 0; 
+    height: 100%;
+    background-color: black;
+}
+
+header {
+    height: 80;
+    background: #08004d;
+}
+header img {
+    padding: 10;
+    width: 60;
+    height: 60;
+}
+header ul{
+    display:flex;  
+    list-style:none;
+    margin-left: 300;
+    margin-top: -55;
+
+}
+header a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25;
+
+    display: block;
+    padding-left: 30;
+    text-decoration: none;
+
+    
+}
+#TEST{
+    text-decoration: none;
+    padding-left: 30;
+    padding-top: 30;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    background-color: rgb(168, 15, 15);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    height: 50;
+    margin-top: 50;
+    border: rgb(168, 15, 15);
+    border-radius: 30px;
+    font-weight: bolder;
+    font-size: large;
+}

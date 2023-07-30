@@ -73,7 +73,7 @@ async function animate(){
     
     // wandelt daten in JSON
     const data = await antwort.json();
-
+    
     // wandelt es in die position der Blenden um und holt die daten dafür aus JSON (angenommene werte 0-14 grade)
     pappe1.position = -17*(await data.see / 2);
     pappe2.position = 125+17*( await data.see / 2);
