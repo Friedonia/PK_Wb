@@ -1,14 +1,21 @@
-/*made by Frieder Schmidt last change 30.7.2023*/
+/*made by Frieder Schmidt last change 3.8.2023*/
+
+:root {
+    --bg: black;
+    --bgHeader: #08004d; 
+    --button: rgb(168, 15, 15);
+    --text: #fff;
+}
 
 html, body {
     margin: 0; 
     height: 100%;
-    background-color: black;
+    background-color: var(--bg);
 }
 
 header {
     height: 80;
-    background: #08004d;
+    background: var(--bgHeader);
 }
 header img {
     padding: 10;
@@ -23,7 +30,7 @@ header ul{
 
 }
 header a{
-    color: white;
+    color: var(--text);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 25;
@@ -39,15 +46,15 @@ header a{
     padding-left: 30;
     padding-top: 30;
     font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
-    background-color: rgb(168, 15, 15);
+    color: var(--text);
+    background-color: var(--button);
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 10%;
     height: 50;
     margin-top: 50;
-    border: rgb(168, 15, 15);
+    border: var(--button);
     border-radius: 30px;
     font-weight: bolder;
     font-size: large;

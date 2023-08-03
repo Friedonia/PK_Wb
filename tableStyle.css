@@ -1,17 +1,25 @@
-/*made by Frieder Schmidt last change 17.4.2023*/
+/*made by Frieder Schmidt last change 3.8.2023*/
+
+:root {
+    --bg: rgba(255, 105, 180);
+    --bgTable: #c1c1c1;
+    --bgTableodd: #edecec;
+    --border: #000; 
+    --hover: coral;
+}
 
 body {
     margin: 0;
-    background-color: rgba(255, 105, 180);
+    background-color: var(--bg);
 }
 table {
     border-collapse: collapse;
     width: 300;
-    background-color: #c1c1c1;
+    background-color: var(--bgTable);
     font-family: Arial, Helvetica, sans-serif;
 }
 table caption {
-    background: #c1c1c1;
+    background: var(--bgTable);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     height: 20;
@@ -20,13 +28,13 @@ table caption {
 td {
     border-width: 0px;
     border: 2px;
-    border-color: rgb(0, 0, 0);
+    border-color: var(--border);
     border-style: solid;
 }
 
-tr:hover {background-color: coral;}
-tr:nth-of-type(odd):hover {background-color: coral;}
+tr:hover {background-color: var(--hover);}
+tr:nth-of-type(odd):hover {background-color: var(--hover);}
 
 tr:nth-of-type(odd) {
-    background-color:#edecec;
+    background-color:var(--bgTableodd);
   }

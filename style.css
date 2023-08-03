@@ -1,9 +1,15 @@
-/*made by Frieder Schmidt last change 30.7.2023*/
+/*made by Frieder Schmidt last change 3.8.2023*/
+:root {
+    --bg: black;
+    --bgGitter: #08004d; 
+    --bgCam: rgb(168, 15, 15);
+    --text: #fff;
+}
 
 html, body {
     margin: 0; 
     height: 100%;
-    background-color: black;
+    background-color: var(--bg);
 }
 
 #graph {
@@ -23,7 +29,7 @@ html, body {
 
 } 
 #deg{
-    color: white;
+    color: var(--text);
     margin-left: 210px;
     margin-right: 585;
     margin-top: -28;
@@ -49,7 +55,7 @@ html, body {
 
 /*Blende*/
 #gitter {
-    background-color: rgb(208, 79, 36);
+    background-color: var(--bgGitter);
     width: 250;
     height: 200;
 }
@@ -79,7 +85,7 @@ html, body {
 #cam {
     width: 300;
     height: 300;
-    background-color: rgb(0, 255, 255);
+    background-color: var(--bgCam);
 }
 .rechts-Unten {
     padding-top: 75;
